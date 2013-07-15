@@ -1,0 +1,902 @@
+_____________________________________________________________________
++ Program class: com/bmac/demo/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.bmac.demo.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 183):
+  + Integer [2130903040]
+  + Integer [2131099648]
+  + Integer [2131165184]
+  + String [bmac]
+  + String [http://]
+  + String [http://anychanceofarub.com/]
+  + String [prefUrl]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/content/SharedPreferences]
+  + Class [android/preference/PreferenceManager]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/MenuItem]
+  + Class [android/view/Window]
+  + Class [android/webkit/WebSettings]
+  + Class [android/webkit/WebView]
+  + Class [com/bmac/demo/MainActivity]
+  + Class [com/bmac/demo/SettingsActivity]
+  + Class [com/bmac/demo/a]
+  + Class [com/bmac/demo/b]
+  + Class [com/bmac/demo/c]
+  + Class [com/bmac/demo/d]
+  + Class [java/lang/Exception]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onActivityResult (IILandroid/content/Intent;)V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onKeyDown (ILandroid/view/KeyEvent;)Z]
+  + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/view/Window.requestFeature (I)Z]
+  + Methodref [android/webkit/WebSettings.setJavaScriptEnabled (Z)V]
+  + Methodref [android/webkit/WebView.addJavascriptInterface (Ljava/lang/Object;Ljava/lang/String;)V]
+  + Methodref [android/webkit/WebView.canGoBack ()Z]
+  + Methodref [android/webkit/WebView.clearHistory ()V]
+  + Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
+  + Methodref [android/webkit/WebView.goBack ()V]
+  + Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
+  + Methodref [android/webkit/WebView.setDownloadListener (Landroid/webkit/DownloadListener;)V]
+  + Methodref [android/webkit/WebView.setWebChromeClient (Landroid/webkit/WebChromeClient;)V]
+  + Methodref [android/webkit/WebView.setWebViewClient (Landroid/webkit/WebViewClient;)V]
+  + Methodref [com/bmac/demo/MainActivity.a (Landroid/content/Context;Landroid/webkit/WebView;)V]
+  + Methodref [com/bmac/demo/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/bmac/demo/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [com/bmac/demo/MainActivity.getWindow ()Landroid/view/Window;]
+  + Methodref [com/bmac/demo/MainActivity.setContentView (I)V]
+  + Methodref [com/bmac/demo/MainActivity.startActivityForResult (Landroid/content/Intent;I)V]
+  + Methodref [com/bmac/demo/a.<init> (Lcom/bmac/demo/MainActivity;)V]
+  + Methodref [com/bmac/demo/b.<init> (Lcom/bmac/demo/MainActivity;)V]
+  + Methodref [com/bmac/demo/c.<init> (Lcom/bmac/demo/MainActivity;Lcom/bmac/demo/a;)V]
+  + Methodref [com/bmac/demo/d.<init> (Landroid/content/Context;)V]
+  + Methodref [java/lang/String.startsWith (Ljava/lang/String;)Z]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Lcom/bmac/demo/MainActivity;)V]
+  + NameAndType [<init> (Lcom/bmac/demo/MainActivity;Lcom/bmac/demo/a;)V]
+  + NameAndType [a (Landroid/content/Context;Landroid/webkit/WebView;)V]
+  + NameAndType [a Landroid/webkit/WebView;]
+  + NameAndType [addJavascriptInterface (Ljava/lang/Object;Ljava/lang/String;)V]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [canGoBack ()Z]
+  + NameAndType [clearHistory ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [getSettings ()Landroid/webkit/WebSettings;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [goBack ()V]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [loadUrl (Ljava/lang/String;)V]
+  + NameAndType [onActivityResult (IILandroid/content/Intent;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onKeyDown (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + NameAndType [requestFeature (I)Z]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setDownloadListener (Landroid/webkit/DownloadListener;)V]
+  + NameAndType [setJavaScriptEnabled (Z)V]
+  + NameAndType [setWebChromeClient (Landroid/webkit/WebChromeClient;)V]
+  + NameAndType [setWebViewClient (Landroid/webkit/WebViewClient;)V]
+  + NameAndType [startActivityForResult (Landroid/content/Intent;I)V]
+  + NameAndType [startsWith (Ljava/lang/String;)Z]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()Landroid/webkit/WebSettings;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(IILandroid/content/Intent;)V]
+  + Utf8 [(ILandroid/view/KeyEvent;)Z]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/webkit/WebView;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/webkit/DownloadListener;)V]
+  + Utf8 [(Landroid/webkit/WebChromeClient;)V]
+  + Utf8 [(Landroid/webkit/WebViewClient;)V]
+  + Utf8 [(Lcom/bmac/demo/MainActivity;)V]
+  + Utf8 [(Lcom/bmac/demo/MainActivity;Lcom/bmac/demo/a;)V]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/webkit/WebView;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [addJavascriptInterface]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/preference/PreferenceManager]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [android/view/Window]
+  + Utf8 [android/webkit/WebSettings]
+  + Utf8 [android/webkit/WebView]
+  + Utf8 [append]
+  + Utf8 [bmac]
+  + Utf8 [canGoBack]
+  + Utf8 [clearHistory]
+  + Utf8 [com/bmac/demo/MainActivity]
+  + Utf8 [com/bmac/demo/SettingsActivity]
+  + Utf8 [com/bmac/demo/a]
+  + Utf8 [com/bmac/demo/b]
+  + Utf8 [com/bmac/demo/c]
+  + Utf8 [com/bmac/demo/d]
+  + Utf8 [findViewById]
+  + Utf8 [getDefaultSharedPreferences]
+  + Utf8 [getItemId]
+  + Utf8 [getMenuInflater]
+  + Utf8 [getSettings]
+  + Utf8 [getString]
+  + Utf8 [getWindow]
+  + Utf8 [goBack]
+  + Utf8 [http://]
+  + Utf8 [http://anychanceofarub.com/]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [loadUrl]
+  + Utf8 [onActivityResult]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onKeyDown]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [prefUrl]
+  + Utf8 [requestFeature]
+  + Utf8 [setContentView]
+  + Utf8 [setDownloadListener]
+  + Utf8 [setJavaScriptEnabled]
+  + Utf8 [setWebChromeClient]
+  + Utf8 [setWebViewClient]
+  + Utf8 [startActivityForResult]
+  + Utf8 [startsWith]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Landroid/webkit/WebView;
+    Access flags: 0xa
+      = private static android.webkit.WebView a
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #27
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 111, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #29
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] invokevirtual #49
+        + Methodref [com/bmac/demo/MainActivity.getWindow ()Landroid/view/Window;]
+      [9] iconst_2
+      [10] invokevirtual #35
+        + Methodref [android/view/Window.requestFeature (I)Z]
+      [13] pop
+      [14] aload_0 v0
+      [15] ldc #1
+        + Integer [2130903040]
+      [17] invokevirtual #50
+        + Methodref [com/bmac/demo/MainActivity.setContentView (I)V]
+      [20] aload_0 v0
+      [21] ldc #3
+        + Integer [2131165184]
+      [23] invokevirtual #47
+        + Methodref [com/bmac/demo/MainActivity.findViewById (I)Landroid/view/View;]
+      [26] checkcast #16
+        + Class [android/webkit/WebView]
+      [29] putstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [32] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [35] new #21
+        + Class [com/bmac/demo/c]
+      [38] dup
+      [39] aload_0 v0
+      [40] aconst_null
+      [41] invokespecial #54
+        + Methodref [com/bmac/demo/c.<init> (Lcom/bmac/demo/MainActivity;Lcom/bmac/demo/a;)V]
+      [44] invokevirtual #45
+        + Methodref [android/webkit/WebView.setWebViewClient (Landroid/webkit/WebViewClient;)V]
+      [47] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [50] new #22
+        + Class [com/bmac/demo/d]
+      [53] dup
+      [54] aload_0 v0
+      [55] invokespecial #55
+        + Methodref [com/bmac/demo/d.<init> (Landroid/content/Context;)V]
+      [58] ldc #4
+        + String [bmac]
+      [60] invokevirtual #37
+        + Methodref [android/webkit/WebView.addJavascriptInterface (Ljava/lang/Object;Ljava/lang/String;)V]
+      [63] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [66] invokevirtual #40
+        + Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
+      [69] astore_2 v2
+      [70] aload_2 v2
+      [71] iconst_1
+      [72] invokevirtual #36
+        + Methodref [android/webkit/WebSettings.setJavaScriptEnabled (Z)V]
+      [75] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [78] new #19
+        + Class [com/bmac/demo/a]
+      [81] dup
+      [82] aload_0 v0
+      [83] invokespecial #52
+        + Methodref [com/bmac/demo/a.<init> (Lcom/bmac/demo/MainActivity;)V]
+      [86] invokevirtual #44
+        + Methodref [android/webkit/WebView.setWebChromeClient (Landroid/webkit/WebChromeClient;)V]
+      [89] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [92] new #20
+        + Class [com/bmac/demo/b]
+      [95] dup
+      [96] aload_0 v0
+      [97] invokespecial #53
+        + Methodref [com/bmac/demo/b.<init> (Lcom/bmac/demo/MainActivity;)V]
+      [100] invokevirtual #43
+        + Methodref [android/webkit/WebView.setDownloadListener (Landroid/webkit/DownloadListener;)V]
+      [103] aload_0 v0
+      [104] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [107] invokestatic #46
+        + Methodref [com/bmac/demo/MainActivity.a (Landroid/content/Context;Landroid/webkit/WebView;)V]
+      [110] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onActivityResult(IILandroid/content/Intent;)V
+    Access flags: 0x4
+      = protected void onActivityResult(int,int,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 42, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] iload_2 v2
+      [3] aload_3 v3
+      [4] invokespecial #28
+        + Methodref [android/app/Activity.onActivityResult (IILandroid/content/Intent;)V]
+      [7] iload_1 v1
+      [8] lookupswitch (1 offsets, default=33) (target=41)
+        1: offset = 20, target = 28
+        default: offset = 33, target = 41
+      [28] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [31] invokevirtual #39
+        + Methodref [android/webkit/WebView.clearHistory ()V]
+      [34] aload_0 v0
+      [35] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [38] invokestatic #46
+        + Methodref [com/bmac/demo/MainActivity.a (Landroid/content/Context;Landroid/webkit/WebView;)V]
+      [41] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [28] Var: ..., Stack: (empty)
+        - [41] Var: ..., Stack: (empty)
+  + Method:       onKeyDown(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean onKeyDown(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 29, locals = 3, stack = 3):
+      [0] iload_1 v1
+      [1] iconst_4
+      [2] ificmpne +20 (target=22)
+      [5] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [8] invokevirtual #38
+        + Methodref [android/webkit/WebView.canGoBack ()Z]
+      [11] ifeq +11 (target=22)
+      [14] getstatic #26
+        + Fieldref [com/bmac/demo/MainActivity.a Landroid/webkit/WebView;]
+      [17] invokevirtual #41
+        + Methodref [android/webkit/WebView.goBack ()V]
+      [20] iconst_1
+      [21] ireturn
+      [22] aload_0 v0
+      [23] iload_1 v1
+      [24] aload_2 v2
+      [25] invokespecial #30
+        + Methodref [android/app/Activity.onKeyDown (ILandroid/view/KeyEvent;)Z]
+      [28] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [22] Var: ..., Stack: (empty)
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #48
+        + Methodref [com/bmac/demo/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] astore_2 v2
+      [5] aload_2 v2
+      [6] ldc #2
+        + Integer [2131099648]
+      [8] aload_1 v1
+      [9] invokevirtual #34
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [12] iconst_1
+      [13] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 56, locals = 3, stack = 4):
+      [0] aload_1 v1
+      [1] invokeinterface #61
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] lookupswitch (1 offsets, default=37) (target=43)
+        2131165185: offset = 18, target = 24
+        default: offset = 37, target = 43
+      [24] new #9
+        + Class [android/content/Intent]
+      [27] dup
+      [28] aload_0 v0
+      [29] ldc #18
+        + Class [com/bmac/demo/SettingsActivity]
+      [31] invokespecial #32
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [34] astore_2 v2
+      [35] aload_0 v0
+      [36] aload_2 v2
+      [37] iconst_1
+      [38] invokevirtual #51
+        + Methodref [com/bmac/demo/MainActivity.startActivityForResult (Landroid/content/Intent;I)V]
+      [41] iconst_1
+      [42] ireturn
+      [43] aload_0 v0
+      [44] aload_1 v1
+      [45] invokespecial #31
+        + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+      [48] ireturn
+      [49] astore_2 v2
+      [50] aload_0 v0
+      [51] aload_1 v1
+      [52] invokespecial #31
+        + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+      [55] ireturn
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (0 -> 42: 49):
+      + Class [java/lang/Exception]
+      - ExceptionInfo (43 -> 48: 49):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [24] Var: ..., Stack: (empty)
+        - [43] Var: ..., Stack: (empty)
+        - [49] Var: ..., Stack: [a:java/lang/Exception]
+  + Method:       a(Landroid/content/Context;Landroid/webkit/WebView;)V
+    Access flags: 0xa
+      = private static void a(android.content.Context,android.webkit.WebView)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 51, locals = 4, stack = 3):
+      [0] aload_0 v0
+      [1] invokestatic #33
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [4] astore_2 v2
+      [5] aload_2 v2
+      [6] ldc #7
+        + String [prefUrl]
+      [8] ldc #6
+        + String [http://anychanceofarub.com/]
+      [10] invokeinterface #60
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [15] astore_3 v3
+      [16] aload_3 v3
+      [17] ldc #5
+        + String [http://]
+      [19] invokevirtual #56
+        + Methodref [java/lang/String.startsWith (Ljava/lang/String;)Z]
+      [22] ifne +23 (target=45)
+      [25] new #25
+        + Class [java/lang/StringBuilder]
+      [28] dup
+      [29] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [32] ldc #5
+        + String [http://]
+      [34] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [37] aload_3 v3
+      [38] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [41] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [44] astore_3 v3
+      [45] aload_1 v1
+      [46] aload_3 v3
+      [47] invokevirtual #42
+        + Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
+      [50] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [45] Var: ...[a:android/content/SharedPreferences][a:java/lang/String], Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bmac/demo/a
+  Superclass:    android/webkit/WebChromeClient
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.bmac.demo.a extends android.webkit.WebChromeClient
+
+Interfaces (count = 0):
+
+Constant Pool (count = 23):
+  + Class [android/webkit/WebChromeClient]
+  + Class [com/bmac/demo/MainActivity]
+  + Class [com/bmac/demo/a]
+  + Fieldref [com/bmac/demo/a.a Lcom/bmac/demo/MainActivity;]
+  + Methodref [android/webkit/WebChromeClient.<init> ()V]
+  + Methodref [com/bmac/demo/MainActivity.setProgress (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/bmac/demo/MainActivity;]
+  + NameAndType [setProgress (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/webkit/WebView;I)V]
+  + Utf8 [(Lcom/bmac/demo/MainActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/bmac/demo/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/webkit/WebChromeClient]
+  + Utf8 [com/bmac/demo/MainActivity]
+  + Utf8 [com/bmac/demo/a]
+  + Utf8 [onProgressChanged]
+  + Utf8 [setProgress]
+
+Fields (count = 1):
+  + Field:        a Lcom/bmac/demo/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.bmac.demo.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/bmac/demo/MainActivity;)V
+    Access flags: 0x0
+      = a(com.bmac.demo.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [com/bmac/demo/a.a Lcom/bmac/demo/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [android/webkit/WebChromeClient.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onProgressChanged(Landroid/webkit/WebView;I)V
+    Access flags: 0x1
+      = public void onProgressChanged(android.webkit.WebView,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [com/bmac/demo/a.a Lcom/bmac/demo/MainActivity;]
+      [4] iload_2 v2
+      [5] sipush 1000
+      [8] imul
+      [9] invokevirtual #6
+        + Methodref [com/bmac/demo/MainActivity.setProgress (I)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bmac/demo/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.bmac.demo.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/webkit/DownloadListener]
+
+Constant Pool (count = 42):
+  + String [android.intent.action.VIEW]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
+  + Class [android/webkit/DownloadListener]
+  + Class [com/bmac/demo/MainActivity]
+  + Class [com/bmac/demo/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/bmac/demo/b.a Lcom/bmac/demo/MainActivity;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [com/bmac/demo/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Lcom/bmac/demo/MainActivity;]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/net/Uri;)Landroid/content/Intent;]
+  + Utf8 [(Lcom/bmac/demo/MainActivity;)V]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/bmac/demo/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android.intent.action.VIEW]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/webkit/DownloadListener]
+  + Utf8 [com/bmac/demo/MainActivity]
+  + Utf8 [com/bmac/demo/b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onDownloadStart]
+  + Utf8 [parse]
+  + Utf8 [setData]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/bmac/demo/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.bmac.demo.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/bmac/demo/MainActivity;)V
+    Access flags: 0x0
+      = b(com.bmac.demo.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        + Fieldref [com/bmac/demo/b.a Lcom/bmac/demo/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #13
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDownloadStart(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
+    Access flags: 0x1
+      = public void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 8, stack = 3):
+      [0] new #2
+        + Class [android/content/Intent]
+      [3] dup
+      [4] ldc #1
+        + String [android.intent.action.VIEW]
+      [6] invokespecial #9
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [9] astore v7
+      [11] aload v7
+      [13] aload_1 v1
+      [14] invokestatic #11
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [17] invokevirtual #10
+        + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+      [20] pop
+      [21] aload_0 v0
+      [22] getfield #8
+        + Fieldref [com/bmac/demo/b.a Lcom/bmac/demo/MainActivity;]
+      [25] aload v7
+      [27] invokevirtual #12
+        + Methodref [com/bmac/demo/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bmac/demo/c
+  Superclass:    android/webkit/WebViewClient
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.bmac.demo.c extends android.webkit.WebViewClient
+
+Interfaces (count = 0):
+
+Constant Pool (count = 44):
+  + String [Oh no! ]
+  + Class [android/webkit/WebViewClient]
+  + Class [android/widget/Toast]
+  + Class [com/bmac/demo/c]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/bmac/demo/c.a Lcom/bmac/demo/MainActivity;]
+  + Methodref [android/webkit/WebViewClient.<init> ()V]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [com/bmac/demo/c.<init> (Lcom/bmac/demo/MainActivity;)V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/bmac/demo/MainActivity;)V]
+  + NameAndType [a Lcom/bmac/demo/MainActivity;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [show ()V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/webkit/WebView;Ljava/lang/String;)Z]
+  + Utf8 [(Lcom/bmac/demo/MainActivity;)V]
+  + Utf8 [(Lcom/bmac/demo/MainActivity;Lcom/bmac/demo/a;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/bmac/demo/MainActivity;]
+  + Utf8 [Oh no! ]
+  + Utf8 [a]
+  + Utf8 [android/webkit/WebViewClient]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [append]
+  + Utf8 [com/bmac/demo/c]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [makeText]
+  + Utf8 [onReceivedError]
+  + Utf8 [shouldOverrideUrlLoading]
+  + Utf8 [show]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Lcom/bmac/demo/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.bmac.demo.MainActivity a
+
+Methods (count = 4):
+  - Method:       <init>(Lcom/bmac/demo/MainActivity;)V
+    Access flags: 0x2
+      = private c(com.bmac.demo.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #6
+        + Fieldref [com/bmac/demo/c.a Lcom/bmac/demo/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [android/webkit/WebViewClient.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
+    Access flags: 0x1
+      = public boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 3, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 5, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #6
+        + Fieldref [com/bmac/demo/c.a Lcom/bmac/demo/MainActivity;]
+      [4] new #5
+        + Class [java/lang/StringBuilder]
+      [7] dup
+      [8] invokespecial #11
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [11] ldc #1
+        + String [Oh no! ]
+      [13] invokevirtual #12
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [16] aload_3 v3
+      [17] invokevirtual #12
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [20] invokevirtual #13
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [23] iconst_0
+      [24] invokestatic #8
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [27] invokevirtual #9
+        + Methodref [android/widget/Toast.show ()V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Lcom/bmac/demo/MainActivity;Lcom/bmac/demo/a;)V
+    Access flags: 0x1000
+      = synthetic c(com.bmac.demo.MainActivity,com.bmac.demo.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #10
+        + Methodref [com/bmac/demo/c.<init> (Lcom/bmac/demo/MainActivity;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bmac/demo/SettingsActivity
+  Superclass:    android/preference/PreferenceActivity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.bmac.demo.SettingsActivity extends android.preference.PreferenceActivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  + Integer [2130968576]
+  + Class [android/preference/PreferenceActivity]
+  + Class [com/bmac/demo/SettingsActivity]
+  + Methodref [android/preference/PreferenceActivity.<init> ()V]
+  + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/bmac/demo/SettingsActivity.addPreferencesFromResource (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [addPreferencesFromResource (I)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [addPreferencesFromResource]
+  + Utf8 [android/preference/PreferenceActivity]
+  + Utf8 [com/bmac/demo/SettingsActivity]
+  + Utf8 [onCreate]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public SettingsActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [android/preference/PreferenceActivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130968576]
+      [8] invokevirtual #6
+        + Methodref [com/bmac/demo/SettingsActivity.addPreferencesFromResource (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bmac/demo/d
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.bmac.demo.d extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 15):
+  + Class [com/bmac/demo/d]
+  + Class [java/lang/Object]
+  + Fieldref [com/bmac/demo/d.a Landroid/content/Context;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/content/Context;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [a]
+  + Utf8 [com/bmac/demo/d]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0x0
+      = android.content.Context a
+
+Methods (count = 1):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x0
+      = d(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #3
+        + Fieldref [com/bmac/demo/d.a Landroid/content/Context;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

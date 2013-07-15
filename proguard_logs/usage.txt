@@ -1,0 +1,14 @@
+com.bmac.demo.BuildConfig
+com.bmac.demo.MainActivity:
+    private static final int RESULT_SETTINGS
+    private static final java.lang.String DEFAULT_URL
+com.bmac.demo.R
+com.bmac.demo.R$attr
+com.bmac.demo.R$drawable
+com.bmac.demo.R$id
+com.bmac.demo.R$layout
+com.bmac.demo.R$menu
+com.bmac.demo.R$string
+com.bmac.demo.R$xml
+com.bmac.demo.WebAppInterface:
+    21:22:public void showToast(java.lang.String)

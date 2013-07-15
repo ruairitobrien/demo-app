@@ -1,0 +1,14 @@
+com.bmac.demo.MainActivity
+com.bmac.demo.MainActivity: MainActivity()
+com.bmac.demo.R$drawable: int ic_launcher
+com.bmac.demo.R$id: int menuItemSettings
+com.bmac.demo.R$id: int webview
+com.bmac.demo.R$layout: int main
+com.bmac.demo.R$menu: int menu
+com.bmac.demo.R$string: int app_name
+com.bmac.demo.R$string: int pref_url
+com.bmac.demo.R$string: int pref_url_summary
+com.bmac.demo.R$string: int pref_user_profile
+com.bmac.demo.R$xml: int preferences
+com.bmac.demo.SettingsActivity
+com.bmac.demo.SettingsActivity: SettingsActivity()

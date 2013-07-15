@@ -1,0 +1,22 @@
+com.bmac.demo.MainActivity -> com.bmac.demo.MainActivity:
+    android.webkit.WebView demoWebView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void loadSettingsUrl(android.content.Context,android.webkit.WebView) -> a
+com.bmac.demo.MainActivity$1 -> com.bmac.demo.a:
+    com.bmac.demo.MainActivity this$0 -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+com.bmac.demo.MainActivity$2 -> com.bmac.demo.b:
+    com.bmac.demo.MainActivity this$0 -> a
+    void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> onDownloadStart
+com.bmac.demo.MainActivity$CustomWebViewClient -> com.bmac.demo.c:
+    com.bmac.demo.MainActivity this$0 -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+com.bmac.demo.SettingsActivity -> com.bmac.demo.SettingsActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.bmac.demo.WebAppInterface -> com.bmac.demo.d:
+    android.content.Context mContext -> a
